@@ -3,19 +3,7 @@ amd_sdk
 
 Install script from AMD SDK (OpenCL) on Debian/Ubuntu/Mint
 
-Requires wget. If you do not have wget installed, install with
+Detects whether the kernel is 32-bit or 64-bit and downloads
+the newest package from the AMD developer page. 
 
-sudo apt-get install wget
-
-Make this bash script executable
-
-chmod u+x amd_sdk.sh
-
-For 32-bit OS
-
-sudo ./amd_sdk.sh 32 
-
-For 64-bit OS
-
-sudo ./amd_sdk.sh 64
 
